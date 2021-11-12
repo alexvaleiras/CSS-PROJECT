@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@900&display=swap');
+
+
+
+
+
+* {
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+.name{
+
+	font-size: 72px;
+	text-align: center;
+	color:red;
+	text-shadow: 
+}
+.flag{
+	
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+.map{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  height: 80%;
+}
+body {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: 18px;
+  color: #222;
+}
+h1,
+h2 {
+  font-family: "Roboto Slab", "Rockwell", "Georgia", serif;
+  font-weight: 900;
+}
+p {
+  line-height: 1.35;
+}
+#text{
+	position: relative;
+	text-align: center;
+	font-size: 36px;
+}
+a:link {
+  color: green;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+  text-decoration: none;
+}
+.redtext{
+	color:red;
+	font-family: 'Arimo', sans-serif;
+}
+.size
+{
+	font-size: 24px;
+	color:black;
+}
+.TransaitionalIssues{
+	font-size:24px;
+}
+.flexbox-container{
+	display: flex;
+	justify-content: center;
+	
+}
+.flexbox{
+	width: 650px;
+	margin: 10px;
+	border: 3px solid #333;
+	background-color: #FFFFFF
+	color:#FF0000;
+
+}
+.flexbox-one{
+	min-height: 100px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1); 
+}
+.flexbox-two{
+	min-height: 100px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1); 
+}
+.flexbox-three{
+	min-height: 100px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1); 
+}
+.flexbox-4{
+	min-height: 100px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1); 
+}
+.flexbox-5{
+	min-height: 100px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1); 
+}
+.flexbox-6{
+	min-height: 100px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1); 
+}
+.textsize{
+	font-size:24px;
+	position: relative;
+	text-align: center;
+}
+.gbox
+{
+	display: grid;
+	grid-template-columns: 1.5fr 2.5fr 1.5fr;
+	grid-auto-rows: minmax(30px, 400px);
+}
+.gbox > div{
+	padding-left: 1em;
+	background: white;
+	grid-auto-rows: minmax(10px,auto);
+}
+
+.gbox > div:nth-child(odd){
+	background: red;
+}
+.mappleleaf{
+	width:400px;
+	height: 400px;
+	opacity: 40%;
+}
+.textheight{
+	position: relative;
+	top:-400px;
+}
+
+
+
+
+
+
+
+
