@@ -11,7 +11,7 @@
 
 	font-size: 72px;
 	text-align: center;
-	color:red;
+	color:#FF0000;
 	text-shadow: 
 }
 .flag{
@@ -47,19 +47,19 @@ p {
 	font-size: 36px;
 }
 a:link {
-  color: black;
+  color: #000000;
   text-decoration: none;
 }
 
 
 a:visited {
-  color: black;
+  color: #000000;
   text-decoration: none;
 }
 
 
 a:hover {
-  color: red;
+  color: #FF0000;
   text-decoration: underline;
 }
 
@@ -68,13 +68,13 @@ a:active {
   text-decoration: none;
 }
 .redtext{
-	color:red;
+	color:#FF0000;
 	font-family: 'Arimo', sans-serif;
 }
 .size
 {
 	font-size: 24px;
-	color:black;
+	color:#000000;
 }
 .TransaitionalIssues{
 	font-size:24px;
@@ -129,12 +129,12 @@ a:active {
 }
 .gbox > div{
 	padding-left: 1em;
-	background: white;
+	background:#FFFFFF;
 	grid-auto-rows: minmax(10px,auto);
 }
 
 .gbox > div:nth-child(odd){
-	background: red;
+	background: #FF0000;
 }
 .mappleleaf{
 	width:400px;
